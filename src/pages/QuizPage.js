@@ -105,7 +105,7 @@ const QuizPage = ({ isMusicPlaying: initialMusicPlaying = true }) => {
     } else {
       return {
         emoji: '🥉',
-        message: '💪 Semangat! Yuk belajar lagi tentang gadget sehat!',
+        message: '💪 Semangat goblok!',
         color: 'bg-red-100 text-red-800'
       };
     }
