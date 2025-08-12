@@ -97,7 +97,7 @@ const QuizPage = ({ isMusicPlaying: initialMusicPlaying = true }) => {
         color: 'bg-green-100 text-green-800'
       };
     } else if (quizScore >= 6) {
-      return {
+      retur {
         emoji: '🥈',
         message: '👍 goblok! Tapi masih bisa belajar lebih banyak lagi!',
         color: 'bg-yellow-100 text-yellow-800'
