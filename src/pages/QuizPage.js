@@ -99,7 +99,7 @@ const QuizPage = ({ isMusicPlaying: initialMusicPlaying = true }) => {
     } else if (quizScore >= 6) {
       return {
         emoji: '🥈',
-        message: '👍 Bagus! Tapi masih bisa belajar lebih banyak lagi!',
+        message: '👍 goblok! Tapi masih bisa belajar lebih banyak lagi!',
         color: 'bg-yellow-100 text-yellow-800'
       };
     } else {

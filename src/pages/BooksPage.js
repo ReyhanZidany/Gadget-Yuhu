@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight, BookOpen, Eye, Zap, Heart, Brain } from 'luc
 const educationSlides = [
   {
     id: 1,
-    title: "Apa itu Gadget?",
+    title: "rehan ganteng tapi boong",
     image: "📱",
     content: "Gadget adalah perangkat elektronik pintar yang membantu kita sehari-hari. Seperti HP untuk komunikasi, tablet untuk belajar, dan laptop untuk mengerjakan tugas. Gadget memang canggih, tapi harus digunakan dengan bijak!",
     bgColor: "bg-gradient-to-br from-blue-500 to-purple-600",
