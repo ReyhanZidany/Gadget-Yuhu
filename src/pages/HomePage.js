@@ -8,7 +8,7 @@ const HomePage = ({ setCurrentPage }) => {
   const educationalFacts = [
     {
       icon: "👀",
-      title: "Mata Lelah",
+      title: "Rehan baik beli kebab",
       stat: "60%",
       desc: "anak mengalami mata lelah karena terlalu lama menatap layar gadget"
     },
