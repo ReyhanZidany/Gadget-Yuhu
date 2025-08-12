@@ -1,0 +1,30 @@
+/* Tambahkan ke file CSS */
+.star-trail {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  color: gold;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+@keyframes starFade {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+.star-trail.active {
+  animation: starFade 1s ease-out;
+}
+
+/* Custom cursor untuk seluruh body */
+body {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="gold"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>') 8 8, auto;
+}
