@@ -105,7 +105,7 @@ const QuizPage = ({ isMusicPlaying: initialMusicPlaying = true }) => {
     } else {
       return {
         emoji: '🥉',
-        message: '💪 Semangat goblok!',
+        message: '💪 Semangat goblok! rehan ngancurin github',
         color: 'bg-red-100 text-red-800'
       };
     }
