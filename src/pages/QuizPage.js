@@ -120,7 +120,7 @@ const QuizPage = ({ isMusicPlaying: initialMusicPlaying = true }) => {
             🏆 Kuis Gadget Sehat 🏆
           </h2>
           <p className="text-3xl font-bold mb-8 text-gray-700">
-            AYO MULAI ANJENGGGGG!
+            
           </p>
           <button
             onClick={() => {
